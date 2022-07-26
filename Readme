@@ -1,0 +1,18 @@
+还要做的：
+1.做一个自适应的图片
+2.添加代理反反爬
+3.写一个设置界面
+
+用到的链接：
+1.关于python解压.zip文件:
+    https://blog.csdn.net/qq_44711932/article/details/108268155
+2.Python selenium调用Chrome driver更改文件默认下载位置:
+    https://blog.csdn.net/AlanGuoo/article/details/106351932
+3.使用PyMuPDF提取杂志封面:
+    https://blog.csdn.net/m0_72091242/article/details/125816429
+    https://blog.csdn.net/ling620/article/details/120041440
+4.selenium iframe处理:
+    https://zhuanlan.zhihu.com/p/59422239
+    https://blog.csdn.net/huilan_same/article/details/52200586
+5.常见编程软件注释 @brief @param @return
+    https://blog.csdn.net/qq_40305944/article/details/115270662

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/mainBackground/1.jpg);</string>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionshuaxin"/>
+    <addaction name="actionkankan"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionshuaxin">
+   <property name="text">
+    <string>shuaxin</string>
+   </property>
+   <property name="iconText">
+    <string>刷新</string>
+   </property>
+  </action>
+  <action name="actionkankan">
+   <property name="text">
+    <string>kankan</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="src/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

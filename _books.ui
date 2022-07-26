@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>1141</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <property name="viewMode">
+     <enum>QListView::IconMode</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>新建项目</string>
+     </property>
+     <property name="icon">
+      <iconset resource="src/resources.qrc">
+       <normaloff>:/mainBackground/7.png</normaloff>:/mainBackground/7.png</iconset>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="src/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
