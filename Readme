@@ -1,3 +1,6 @@
+clone之后要在主目录下添加douban_books、economy_news_pictures、international_pictures、
+national_brief_pictures、national_society_pictures几个文件夹来存放程序运行时所需要的文件
+
 还要做的：
 1.做一个自适应的图片
 2.添加代理反反爬
